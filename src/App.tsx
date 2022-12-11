@@ -6,6 +6,7 @@ import { useRef, useState } from "react";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import { fadeInUp } from "react-animations";
 import { MdFacebook } from "react-icons/md";
+import { Parallax } from "react-parallax";
 import styled, { keyframes } from "styled-components";
 
 const initValues = {
@@ -66,7 +67,7 @@ function App() {
           setValues(initValues);
           setErrors(initValues);
         },
-        (error) => {
+        () => {
           alert("Įvyko klaida, pabandykite vėliau");
         }
       );
@@ -82,7 +83,13 @@ function App() {
           <StyledIcon />
         </a>
       </Nav>
-      <BackgroundImage>
+
+      <BackgroundImage
+        blur={3}
+        bgImage="bg.jpg"
+        bgImageAlt="motorbike"
+        strength={200}
+      >
         <Column>
           <Title>Kawasaki Vulcan Riders LT</Title>
           <Description>
@@ -235,6 +242,9 @@ const Nav = styled.div`
   justify-content: space-between;
   padding: 0 16px;
   background-color: #1b1b1b;
+  position: sticky;
+  z-index: 20;
+  top: 0;
 `;
 
 const Footer = styled.div`
@@ -257,8 +267,7 @@ const Line = styled.div`
   color: #d4d4d4;
 `;
 
-const BackgroundImage = styled.div`
-  background-image: url("bg.jpg");
+const BackgroundImage = styled(Parallax)`
   min-height: 90vh;
   background-repeat: no-repeat;
   background-size: cover;
