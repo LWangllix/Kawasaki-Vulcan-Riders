@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Kawasaki-Vulcan-Riders/static/css/main.4ee8fa13.css",
-    "main.js": "/Kawasaki-Vulcan-Riders/static/js/main.0d4d6afd.js",
-    "static/js/787.cb677c9c.chunk.js": "/Kawasaki-Vulcan-Riders/static/js/787.cb677c9c.chunk.js",
-    "index.html": "/Kawasaki-Vulcan-Riders/index.html",
-    "main.4ee8fa13.css.map": "/Kawasaki-Vulcan-Riders/static/css/main.4ee8fa13.css.map",
-    "main.0d4d6afd.js.map": "/Kawasaki-Vulcan-Riders/static/js/main.0d4d6afd.js.map",
-    "787.cb677c9c.chunk.js.map": "/Kawasaki-Vulcan-Riders/static/js/787.cb677c9c.chunk.js.map"
+    "main.css": "/static/css/main.4ee8fa13.css",
+    "main.js": "/static/js/main.7a24afcd.js",
+    "static/js/787.cb677c9c.chunk.js": "/static/js/787.cb677c9c.chunk.js",
+    "index.html": "/index.html",
+    "main.4ee8fa13.css.map": "/static/css/main.4ee8fa13.css.map",
+    "main.7a24afcd.js.map": "/static/js/main.7a24afcd.js.map",
+    "787.cb677c9c.chunk.js.map": "/static/js/787.cb677c9c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4ee8fa13.css",
-    "static/js/main.0d4d6afd.js"
+    "static/js/main.7a24afcd.js"
   ]
 }
