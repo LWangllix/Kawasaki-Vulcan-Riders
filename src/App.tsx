@@ -76,7 +76,7 @@ function App() {
   return (
     <Container>
       <Nav>
-        <a href="/">
+        <a href="https://lwangllix.github.io/Kawasaki-Vulcan-Riders/">
           <Logo src={"./logo.png"} alt="logo" />
         </a>
         <a href="https://www.facebook.com/groups/539707704632052">
