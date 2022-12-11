@@ -107,7 +107,7 @@ function App() {
       <AnimationOnScroll animateIn="animate__fadeIn">
         <InnerContainer>
           <SidePicture src={"./formPicture.jpg"} />
-          <Form ref={form as any} onSubmit={handleSubmit}>
+          <Form ref={form as any} noValidate onSubmit={handleSubmit}>
             <StyledTypography variant="h5" gutterBottom>
               Susisiekite
             </StyledTypography>
