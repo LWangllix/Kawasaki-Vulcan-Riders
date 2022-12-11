@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Kawasaki-Vulcan-Riders/static/css/main.4ee8fa13.css",
+    "main.js": "/Kawasaki-Vulcan-Riders/static/js/main.47b881e4.js",
+    "static/js/787.cb677c9c.chunk.js": "/Kawasaki-Vulcan-Riders/static/js/787.cb677c9c.chunk.js",
+    "index.html": "/Kawasaki-Vulcan-Riders/index.html",
+    "main.4ee8fa13.css.map": "/Kawasaki-Vulcan-Riders/static/css/main.4ee8fa13.css.map",
+    "main.47b881e4.js.map": "/Kawasaki-Vulcan-Riders/static/js/main.47b881e4.js.map",
+    "787.cb677c9c.chunk.js.map": "/Kawasaki-Vulcan-Riders/static/js/787.cb677c9c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ee8fa13.css",
+    "static/js/main.47b881e4.js"
+  ]
+}
