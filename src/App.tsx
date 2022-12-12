@@ -76,7 +76,7 @@ function App() {
   return (
     <Container>
       <Nav>
-        <a href="https://www.glix.tech/Kawasaki-Vulcan-Riders/">
+        <a href="https://glix.tech">
           <Logo src={"./logo.png"} alt="logo" />
         </a>
         <a href="https://www.facebook.com/groups/539707704632052">
