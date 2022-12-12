@@ -85,7 +85,7 @@ function App() {
       </Nav>
 
       <BackgroundImage
-        blur={3}
+        blur={1}
         bgImage="bg.jpg"
         bgImageAlt="motorbike"
         strength={200}
@@ -203,6 +203,9 @@ const Column = styled.div`
   flex-direction: column;
   animation: 1s ${fadeInAnimation};
   gap: 12px;
+  background-color: #00000030;
+  padding: 16px;
+  border-radius: 5px;
 `;
 
 const SidePicture = styled.img`
