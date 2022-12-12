@@ -210,6 +210,9 @@ const SidePicture = styled.img`
   max-width: 600px;
   height: auto;
   object-fit: cover;
+  @media (max-width: 800px) {
+    width: 100%;
+  }
 `;
 
 const Form = styled.form`
