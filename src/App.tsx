@@ -191,6 +191,7 @@ const InnerContainer = styled.div`
   gap: 32px;
   margin: 16px auto;
   animation: 1s ${fadeInAnimation};
+
   @media (max-width: 800px) {
     flex-direction: column;
     align-items: center;
@@ -203,7 +204,7 @@ const Column = styled.div`
   flex-direction: column;
   animation: 1s ${fadeInAnimation};
   gap: 12px;
-  background-color: #00000030;
+  background-color: #00000092;
   padding: 16px;
   border-radius: 5px;
 `;
@@ -275,13 +276,18 @@ const Line = styled.div`
 
 const BackgroundImage = styled(Parallax)`
   min-height: 90vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
   padding: 16px;
   display: flex;
   align-items: center;
-  object-fit: cover;
+
+  .react-parallax-bgimage {
+    height: 100%;
+    min-height: 93vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    object-fit: cover;
+  }
 `;
 
 const Title = styled.div`
